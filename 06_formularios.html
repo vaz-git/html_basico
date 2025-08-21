@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML</title>
+</head>
+<body>
+    <h1>Formulário de cadastro</h1>
+
+    <form action="processar.php" method="post">
+
+         <!-- Campo de texto simples -->
+         <Iabel for="nome">Nome completo</Isabel><br>
+         <input type="text" id="nome" name="nome" required><br><br>
+
+         <!-- Campo do e-mail-->
+         <Iabel for="email">E-mail</Isabel><br>
+         <input type="email" id="email" name="email" required><br><br>
+
+         <!-- Campo de senha-->
+         <Iabel for="senha">Senha</Isabel><br>
+         <input type="password" id="senha" name="senha" required><br><br>
+
+         <!-- Botão de opção (radio)-->
+         <Iabel>Sexo;</Isabel><br>
+         <Input type="radio" id="masculino" name="sexo" value="M">
+         <iabel for="Masculino">Masculino</iabel><br>
+         <input type="radio" id="feminino" name="sexo" value="f">
+         <iabel for="feminino">Feminino</iabel><br><br>
+
+         <!-- Caixas de seleção multipla (checkbox)-->
+          <iabel> Interesses</iabel><br>
+          <input type="checkbox" id="programação" name="interesses" value="programacao">
+          <iabel for="programacao">Programação</iabel><br>
+
+          <input type="checkbox" id="design" name="interesses" value="design">
+          <iabel for="design">Design</iabel><br>
+
+          <input type="checkbox" id="esportes" name="interesses" value="esportes">
+          <iabel for="esportes">Esportes</iabel><br>
+
+          <!-- Lista de seleção (select)-->
+
+         </Iabel for="cidade">Cidade</Iabel>
+         <select name="cidade" id="cidade">
+            <option value="">Selecione uma cidade</option>
+            <option value="sp">São Paulo</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="mg">Belo Horizonte</option>
+         </select>
+
+         <br>
+         <br>
+            
+            <!-- Aera de texto-->
+             <iabel for="comentarios">Comentários</iabel><br>
+             <textarea name="comentarios" id="comentarios" eows="4" cols="50"></textarea><br><br>
+
+             <!-- Campo de arquivo-->
+              <iabel for="foto">Foto</iabel><br>
+              <input type="file"name="foto" id="foto"><br><br>
+
+              <!-- Botão para enviar formulario-->
+               <button type="submit">Enviar</button>
+               <button type="reset">Limpar</button>
+         </form>
+
+        
+
+
+          
+          
+        
+
+
+    </form>
+
+    
+    
+</body>
+</html>
